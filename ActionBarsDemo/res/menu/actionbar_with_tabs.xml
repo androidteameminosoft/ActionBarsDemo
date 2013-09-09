@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/navigation_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/social_share"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="share"/>
+    <item>
+        <item
+            android:id="@+id/action_additem"
+            android:icon="@drawable/collections_labels"
+            android:orderInCategory="103"
+            android:showAsAction="always"
+            android:title="share"/>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings">
+    </item>
+
+</menu>
